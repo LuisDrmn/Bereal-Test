@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0148CEC29B889E0001DB433 /* UploadFileBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0148CEB29B889E0001DB433 /* UploadFileBtnView.swift */; };
+		A0148CEE29B88A55001DB433 /* CreateFolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0148CED29B88A55001DB433 /* CreateFolderView.swift */; };
+		A057420E29B79A960067CAB6 /* FileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A057420D29B79A960067CAB6 /* FileView.swift */; };
+		A05914B829B7657300ED09DD /* ErrorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05914B729B7657300ED09DD /* ErrorState.swift */; };
+		A05914BA29B7659800ED09DD /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05914B929B7659800ED09DD /* ErrorWrapper.swift */; };
+		A05914BF29B76C5100ED09DD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05914BE29B76C5100ED09DD /* LoginView.swift */; };
+		A05914C129B76C6E00ED09DD /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05914C029B76C6E00ED09DD /* FolderView.swift */; };
+		A05914C429B77FCD00ED09DD /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05914C329B77FCD00ED09DD /* NavigationViewModel.swift */; };
+		A05914C729B78FD000ED09DD /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05914C529B78F3100ED09DD /* ErrorView.swift */; };
 		A06BF9F729B747710035584A /* Beton_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BF9F629B747710035584A /* Beton_TestApp.swift */; };
 		A06BF9F929B747710035584A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BF9F829B747710035584A /* ContentView.swift */; };
 		A06BF9FB29B747720035584A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06BF9FA29B747720035584A /* Assets.xcassets */; };
 		A06BF9FE29B747720035584A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06BF9FD29B747720035584A /* Preview Assets.xcassets */; };
-		A06BFA0829B747720035584A /* Beton_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BFA0729B747720035584A /* Beton_TestTests.swift */; };
-		A06BFA1229B747720035584A /* Beton_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BFA1129B747720035584A /* Beton_TestUITests.swift */; };
-		A06BFA1429B747720035584A /* Beton_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BFA1329B747720035584A /* Beton_TestUITestsLaunchTests.swift */; };
+		A06BFA0829B747720035584A /* Bereal_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BFA0729B747720035584A /* Bereal_TestTests.swift */; };
+		A06BFA2429B748170035584A /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BFA2329B748170035584A /* RequestMethod.swift */; };
+		A06BFA2629B748360035584A /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BFA2529B748360035584A /* RequestError.swift */; };
+		A06BFA2829B748890035584A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BFA2729B748890035584A /* Endpoint.swift */; };
+		A06BFA2A29B748B20035584A /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BFA2929B748B20035584A /* HTTPClient.swift */; };
+		A06BFA2C29B749380035584A /* BerealEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BFA2B29B749380035584A /* BerealEndpoint.swift */; };
+		A06BFA2F29B74C5D0035584A /* BerealService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BFA2E29B74C5D0035584A /* BerealService.swift */; };
+		A06BFA3229B74CD90035584A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BFA3129B74CD90035584A /* User.swift */; };
+		A06BFA3429B74D3B0035584A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BFA3329B74D3B0035584A /* Item.swift */; };
+		A06BFA3629B74F590035584A /* BerealManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06BFA3529B74F590035584A /* BerealManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,26 +40,34 @@
 			remoteGlobalIDString = A06BF9F229B747710035584A;
 			remoteInfo = "Beton-Test";
 		};
-		A06BFA0E29B747720035584A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A06BF9EB29B747710035584A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A06BF9F229B747710035584A;
-			remoteInfo = "Beton-Test";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A06BF9F329B747710035584A /* Beton-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beton-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0148CEB29B889E0001DB433 /* UploadFileBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadFileBtnView.swift; sourceTree = "<group>"; };
+		A0148CED29B88A55001DB433 /* CreateFolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFolderView.swift; sourceTree = "<group>"; };
+		A057420D29B79A960067CAB6 /* FileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileView.swift; sourceTree = "<group>"; };
+		A05914B729B7657300ED09DD /* ErrorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorState.swift; sourceTree = "<group>"; };
+		A05914B929B7659800ED09DD /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		A05914BE29B76C5100ED09DD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A05914C029B76C6E00ED09DD /* FolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderView.swift; sourceTree = "<group>"; };
+		A05914C329B77FCD00ED09DD /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		A05914C529B78F3100ED09DD /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		A06BF9F329B747710035584A /* Bereal-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bereal-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06BF9F629B747710035584A /* Beton_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beton_TestApp.swift; sourceTree = "<group>"; };
 		A06BF9F829B747710035584A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A06BF9FA29B747720035584A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A06BF9FD29B747720035584A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A06BFA0329B747720035584A /* Beton-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beton-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A06BFA0729B747720035584A /* Beton_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beton_TestTests.swift; sourceTree = "<group>"; };
-		A06BFA0D29B747720035584A /* Beton-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beton-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A06BFA1129B747720035584A /* Beton_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beton_TestUITests.swift; sourceTree = "<group>"; };
-		A06BFA1329B747720035584A /* Beton_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beton_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A06BFA0329B747720035584A /* Bereal-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bereal-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06BFA0729B747720035584A /* Bereal_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bereal_TestTests.swift; sourceTree = "<group>"; };
+		A06BFA2329B748170035584A /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		A06BFA2529B748360035584A /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		A06BFA2729B748890035584A /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		A06BFA2929B748B20035584A /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		A06BFA2B29B749380035584A /* BerealEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerealEndpoint.swift; sourceTree = "<group>"; };
+		A06BFA2E29B74C5D0035584A /* BerealService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerealService.swift; sourceTree = "<group>"; };
+		A06BFA3129B74CD90035584A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A06BFA3329B74D3B0035584A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A06BFA3529B74F590035584A /* BerealManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerealManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,22 +85,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A06BFA0A29B747720035584A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0148CEA29B889B7001DB433 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A0148CEB29B889E0001DB433 /* UploadFileBtnView.swift */,
+				A0148CED29B88A55001DB433 /* CreateFolderView.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		A05914B629B7655D00ED09DD /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				A05914C529B78F3100ED09DD /* ErrorView.swift */,
+				A05914B729B7657300ED09DD /* ErrorState.swift */,
+				A05914B929B7659800ED09DD /* ErrorWrapper.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		A05914C229B77FBA00ED09DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A05914C329B77FCD00ED09DD /* NavigationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		A06BF9EA29B747710035584A = {
 			isa = PBXGroup;
 			children = (
-				A06BF9F529B747710035584A /* Beton-Test */,
-				A06BFA0629B747720035584A /* Beton-TestTests */,
-				A06BFA1029B747720035584A /* Beton-TestUITests */,
+				A06BF9F529B747710035584A /* Bereal-Test */,
+				A06BFA0629B747720035584A /* Bereal-TestTests */,
 				A06BF9F429B747710035584A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +127,24 @@
 		A06BF9F429B747710035584A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A06BF9F329B747710035584A /* Beton-Test.app */,
-				A06BFA0329B747720035584A /* Beton-TestTests.xctest */,
-				A06BFA0D29B747720035584A /* Beton-TestUITests.xctest */,
+				A06BF9F329B747710035584A /* Bereal-Test.app */,
+				A06BFA0329B747720035584A /* Bereal-TestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A06BF9F529B747710035584A /* Beton-Test */ = {
+		A06BF9F529B747710035584A /* Bereal-Test */ = {
 			isa = PBXGroup;
 			children = (
+				A06BFA3029B74CC60035584A /* Model */,
+				A06BFA2D29B74C3F0035584A /* Manager */,
+				A06BFA2129B747C30035584A /* Network */,
+				A06BFA2029B7478B0035584A /* App */,
 				A06BF9F629B747710035584A /* Beton_TestApp.swift */,
-				A06BF9F829B747710035584A /* ContentView.swift */,
 				A06BF9FA29B747720035584A /* Assets.xcassets */,
 				A06BF9FC29B747720035584A /* Preview Content */,
 			);
-			path = "Beton-Test";
+			path = "Bereal-Test";
 			sourceTree = "<group>";
 		};
 		A06BF9FC29B747720035584A /* Preview Content */ = {
@@ -110,29 +155,72 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A06BFA0629B747720035584A /* Beton-TestTests */ = {
+		A06BFA0629B747720035584A /* Bereal-TestTests */ = {
 			isa = PBXGroup;
 			children = (
-				A06BFA0729B747720035584A /* Beton_TestTests.swift */,
+				A06BFA0729B747720035584A /* Bereal_TestTests.swift */,
 			);
-			path = "Beton-TestTests";
+			path = "Bereal-TestTests";
 			sourceTree = "<group>";
 		};
-		A06BFA1029B747720035584A /* Beton-TestUITests */ = {
+		A06BFA2029B7478B0035584A /* App */ = {
 			isa = PBXGroup;
 			children = (
-				A06BFA1129B747720035584A /* Beton_TestUITests.swift */,
-				A06BFA1329B747720035584A /* Beton_TestUITestsLaunchTests.swift */,
+				A0148CEA29B889B7001DB433 /* Buttons */,
+				A05914C229B77FBA00ED09DD /* ViewModel */,
+				A05914B629B7655D00ED09DD /* Error */,
+				A06BF9F829B747710035584A /* ContentView.swift */,
+				A05914BE29B76C5100ED09DD /* LoginView.swift */,
+				A05914C029B76C6E00ED09DD /* FolderView.swift */,
+				A057420D29B79A960067CAB6 /* FileView.swift */,
 			);
-			path = "Beton-TestUITests";
+			path = App;
+			sourceTree = "<group>";
+		};
+		A06BFA2129B747C30035584A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A06BFA2229B747ED0035584A /* Base */,
+				A06BFA2B29B749380035584A /* BerealEndpoint.swift */,
+				A06BFA2E29B74C5D0035584A /* BerealService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A06BFA2229B747ED0035584A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A06BFA2329B748170035584A /* RequestMethod.swift */,
+				A06BFA2529B748360035584A /* RequestError.swift */,
+				A06BFA2729B748890035584A /* Endpoint.swift */,
+				A06BFA2929B748B20035584A /* HTTPClient.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A06BFA2D29B74C3F0035584A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A06BFA3529B74F590035584A /* BerealManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A06BFA3029B74CC60035584A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A06BFA3129B74CD90035584A /* User.swift */,
+				A06BFA3329B74D3B0035584A /* Item.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A06BF9F229B747710035584A /* Beton-Test */ = {
+		A06BF9F229B747710035584A /* Bereal-Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A06BFA1729B747720035584A /* Build configuration list for PBXNativeTarget "Beton-Test" */;
+			buildConfigurationList = A06BFA1729B747720035584A /* Build configuration list for PBXNativeTarget "Bereal-Test" */;
 			buildPhases = (
 				A06BF9EF29B747710035584A /* Sources */,
 				A06BF9F029B747710035584A /* Frameworks */,
@@ -142,14 +230,14 @@
 			);
 			dependencies = (
 			);
-			name = "Beton-Test";
+			name = "Bereal-Test";
 			productName = "Beton-Test";
-			productReference = A06BF9F329B747710035584A /* Beton-Test.app */;
+			productReference = A06BF9F329B747710035584A /* Bereal-Test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A06BFA0229B747720035584A /* Beton-TestTests */ = {
+		A06BFA0229B747720035584A /* Bereal-TestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A06BFA1A29B747720035584A /* Build configuration list for PBXNativeTarget "Beton-TestTests" */;
+			buildConfigurationList = A06BFA1A29B747720035584A /* Build configuration list for PBXNativeTarget "Bereal-TestTests" */;
 			buildPhases = (
 				A06BF9FF29B747720035584A /* Sources */,
 				A06BFA0029B747720035584A /* Frameworks */,
@@ -160,28 +248,10 @@
 			dependencies = (
 				A06BFA0529B747720035584A /* PBXTargetDependency */,
 			);
-			name = "Beton-TestTests";
+			name = "Bereal-TestTests";
 			productName = "Beton-TestTests";
-			productReference = A06BFA0329B747720035584A /* Beton-TestTests.xctest */;
+			productReference = A06BFA0329B747720035584A /* Bereal-TestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A06BFA0C29B747720035584A /* Beton-TestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A06BFA1D29B747720035584A /* Build configuration list for PBXNativeTarget "Beton-TestUITests" */;
-			buildPhases = (
-				A06BFA0929B747720035584A /* Sources */,
-				A06BFA0A29B747720035584A /* Frameworks */,
-				A06BFA0B29B747720035584A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A06BFA0F29B747720035584A /* PBXTargetDependency */,
-			);
-			name = "Beton-TestUITests";
-			productName = "Beton-TestUITests";
-			productReference = A06BFA0D29B747720035584A /* Beton-TestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,13 +270,9 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = A06BF9F229B747710035584A;
 					};
-					A06BFA0C29B747720035584A = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = A06BF9F229B747710035584A;
-					};
 				};
 			};
-			buildConfigurationList = A06BF9EE29B747710035584A /* Build configuration list for PBXProject "Beton-Test" */;
+			buildConfigurationList = A06BF9EE29B747710035584A /* Build configuration list for PBXProject "Bereal-Test" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +285,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A06BF9F229B747710035584A /* Beton-Test */,
-				A06BFA0229B747720035584A /* Beton-TestTests */,
-				A06BFA0C29B747720035584A /* Beton-TestUITests */,
+				A06BF9F229B747710035584A /* Bereal-Test */,
+				A06BFA0229B747720035584A /* Bereal-TestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +308,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A06BFA0B29B747720035584A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +315,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05914C729B78FD000ED09DD /* ErrorView.swift in Sources */,
+				A05914C429B77FCD00ED09DD /* NavigationViewModel.swift in Sources */,
+				A0148CEC29B889E0001DB433 /* UploadFileBtnView.swift in Sources */,
+				A05914BA29B7659800ED09DD /* ErrorWrapper.swift in Sources */,
+				A06BFA3429B74D3B0035584A /* Item.swift in Sources */,
+				A05914C129B76C6E00ED09DD /* FolderView.swift in Sources */,
+				A06BFA2629B748360035584A /* RequestError.swift in Sources */,
+				A05914BF29B76C5100ED09DD /* LoginView.swift in Sources */,
+				A0148CEE29B88A55001DB433 /* CreateFolderView.swift in Sources */,
+				A06BFA3629B74F590035584A /* BerealManager.swift in Sources */,
 				A06BF9F929B747710035584A /* ContentView.swift in Sources */,
+				A06BFA2F29B74C5D0035584A /* BerealService.swift in Sources */,
+				A06BFA2C29B749380035584A /* BerealEndpoint.swift in Sources */,
+				A05914B829B7657300ED09DD /* ErrorState.swift in Sources */,
+				A06BFA2A29B748B20035584A /* HTTPClient.swift in Sources */,
+				A057420E29B79A960067CAB6 /* FileView.swift in Sources */,
+				A06BFA3229B74CD90035584A /* User.swift in Sources */,
+				A06BFA2429B748170035584A /* RequestMethod.swift in Sources */,
 				A06BF9F729B747710035584A /* Beton_TestApp.swift in Sources */,
+				A06BFA2829B748890035584A /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,16 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A06BFA0829B747720035584A /* Beton_TestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A06BFA0929B747720035584A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A06BFA1229B747720035584A /* Beton_TestUITests.swift in Sources */,
-				A06BFA1429B747720035584A /* Beton_TestUITestsLaunchTests.swift in Sources */,
+				A06BFA0829B747720035584A /* Bereal_TestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,13 +351,8 @@
 /* Begin PBXTargetDependency section */
 		A06BFA0529B747720035584A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A06BF9F229B747710035584A /* Beton-Test */;
+			target = A06BF9F229B747710035584A /* Bereal-Test */;
 			targetProxy = A06BFA0429B747720035584A /* PBXContainerItemProxy */;
-		};
-		A06BFA0F29B747720035584A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A06BF9F229B747710035584A /* Beton-Test */;
-			targetProxy = A06BFA0E29B747720035584A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -416,10 +478,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Beton-Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = Y4872UA8FS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bereal-Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,7 +493,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "luis.drmn.co.Beton-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "luis.drmn.co.Bereal-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -445,10 +508,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Beton-Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = Y4872UA8FS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bereal-Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,7 +523,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "luis.drmn.co.Beton-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "luis.drmn.co.Bereal-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -478,12 +542,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "luis.drmn.co.Beton-TestTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "luis.drmn.co.Bereal-TestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beton-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Beton-Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bereal-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bereal-Test";
 			};
 			name = Debug;
 		};
@@ -498,55 +562,19 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "luis.drmn.co.Beton-TestTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "luis.drmn.co.Bereal-TestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beton-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Beton-Test";
-			};
-			name = Release;
-		};
-		A06BFA1E29B747720035584A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y4872UA8FS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "luis.drmn.co.Beton-TestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Beton-Test";
-			};
-			name = Debug;
-		};
-		A06BFA1F29B747720035584A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y4872UA8FS;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "luis.drmn.co.Beton-TestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Beton-Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bereal-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bereal-Test";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A06BF9EE29B747710035584A /* Build configuration list for PBXProject "Beton-Test" */ = {
+		A06BF9EE29B747710035584A /* Build configuration list for PBXProject "Bereal-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A06BFA1529B747720035584A /* Debug */,
@@ -555,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A06BFA1729B747720035584A /* Build configuration list for PBXNativeTarget "Beton-Test" */ = {
+		A06BFA1729B747720035584A /* Build configuration list for PBXNativeTarget "Bereal-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A06BFA1829B747720035584A /* Debug */,
@@ -564,20 +592,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A06BFA1A29B747720035584A /* Build configuration list for PBXNativeTarget "Beton-TestTests" */ = {
+		A06BFA1A29B747720035584A /* Build configuration list for PBXNativeTarget "Bereal-TestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A06BFA1B29B747720035584A /* Debug */,
 				A06BFA1C29B747720035584A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A06BFA1D29B747720035584A /* Build configuration list for PBXNativeTarget "Beton-TestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A06BFA1E29B747720035584A /* Debug */,
-				A06BFA1F29B747720035584A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
