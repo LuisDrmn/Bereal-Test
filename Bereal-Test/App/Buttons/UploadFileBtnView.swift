@@ -30,7 +30,6 @@ struct UploadFileBtnView: View {
 
     private func uploadFile(_ fileUrl: URL) {
         do {
-            print(fileUrl.lastPathComponent)
             if fileUrl.startAccessingSecurityScopedResource() {
                 let fileData = try Data(contentsOf: fileUrl)
                 Task {
